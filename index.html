@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme SaaS Pricing</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0d1117; color: #f7f8fa; margin: 0; padding: 2rem; }
+    h1 { text-align: center; font-size: 2rem; margin-bottom: 0.5rem; }
+    p.subtitle { text-align: center; color: #9aa0ac; margin-bottom: 2rem; }
+    .grid { display: flex; gap: 2rem; justify-content: center; }
+    .card { background: #20242d; border: 1px solid #5b616e; border-radius: 8px; padding: 2rem; width: 240px; text-align: center; }
+    .card.highlight { border-color: #1f5eff; }
+    .tier { font-size: 1.25rem; font-weight: 600; color: #9aa0ac; margin-bottom: 1rem; }
+    .price { font-size: 2.5rem; font-weight: bold; color: #fff; margin-bottom: 1rem; }
+    .period { font-size: 0.875rem; color: #9aa0ac; }
+    ul { list-style: none; padding: 0; margin: 1rem 0 0; text-align: left; }
+    li { padding: 0.35rem 0; color: #e6e8ec; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Acme SaaS Pricing</h1>
+  <p class="subtitle">Simple, predictable pricing for growing teams.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="tier">Starter</div>
+      <div class="price">$99<span class="period">/mo</span></div>
+      <ul>
+        <li>Up to 5 users</li>
+        <li>10 GB storage</li>
+        <li>Email support</li>
+      </ul>
+    </div>
+
+    <div class="card highlight">
+      <div class="tier">Pro</div>
+      <div class="price">$199<span class="period">/mo</span></div>
+      <ul>
+        <li>Unlimited users</li>
+        <li>100 GB storage</li>
+        <li>Priority support</li>
+        <li>Custom integrations</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="tier">Business</div>
+      <div class="price">$499<span class="period">/mo</span></div>
+      <ul>
+        <li>Dedicated SLA</li>
+        <li>SSO and SAML</li>
+        <li>Dedicated manager</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
